@@ -32,6 +32,7 @@ else
 			$_SG['jsPage'] = $_ENV['DIR_APP']."/app/view/users/js_view.php"; //JS adicionais
 			$_SG['helpTitle'] = "Ajuda Login Controle Acesso"; //Titulo da ajuda da pagina
 			$_SG['helpContent'] = "Login Controle Acesso"; //Conteudo da ajuda da pagina
+			$_SG['action'] = '';
 			break;
 	    default:
 	    	$_SG['nomePagina'] = "Login API Control";//titulo da pagina
@@ -40,6 +41,7 @@ else
 			$_SG['jsPage'] = $_ENV['DIR_APP']."/app/view/users/js.php"; //JS adicionais
 			$_SG['helpTitle'] = "Ajuda API Control"; //Titulo da ajuda da pagina
 			$_SG['helpContent'] = "Login Controle Acesso"; //Conteudo da ajuda da pagina
+			$_SG['action'] = '';
 			break;
 	}
 

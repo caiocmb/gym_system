@@ -204,7 +204,7 @@
                            <i class="nav-icon fas '.$dd_menu['icone'].'"></i>
                            <p>
                             '.$dd_menu['descricao'];
-                            if($dd_menu['new'] == S){ echo '<span class="right badge badge-danger">Novo</span>'; }
+                            if($dd_menu['new'] == 'S'){ echo '<span class="right badge badge-danger">Novo</span>'; }
                        echo '
                            </p>
                          </a>
@@ -235,7 +235,7 @@
                                            <i class="nav-icon far '.$dd_submenu['icone'].'"></i>
                                            <p>
                                             '.$dd_submenu['descricao'];
-                                            if($dd_submenu['new'] == S){ echo '<span class="right badge badge-danger">Novo</span>'; }
+                                            if($dd_submenu['new'] == 'S'){ echo '<span class="right badge badge-danger">Novo</span>'; }
                                   echo '
                                            </p>
                                          </a>
@@ -263,7 +263,7 @@
                                                        <i class="nav-icon far '.$dd_susubmenu['icone'].'"></i>
                                                        <p>
                                                         '.$dd_susubmenu['descricao'];
-                                                        if($dd_susubmenu['new'] == S){ echo '<span class="right badge badge-danger">Novo</span>'; }
+                                                        if($dd_susubmenu['new'] == 'S'){ echo '<span class="right badge badge-danger">Novo</span>'; }
                                            echo '
                                                        </p>
                                                      </a>

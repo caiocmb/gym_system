@@ -120,9 +120,9 @@ $(function () {
                       }
                       if($_SG['action'] == 'create')
                       {
-                     ?>
+                     ?>console.log(response['lastID']);
                         setTimeout(function() {
-                          location.href='/<?php echo $_ENV['PASTA_APP_NAME']; ?>/users/view/'+response['lastID'];
+                          location.href='/users/view/'+response['lastID'];
                         }, 200);
                       <?php } ?>
                    }

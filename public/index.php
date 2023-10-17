@@ -1,12 +1,13 @@
 <?php
 
-$route = explode("/",$_SERVER[REQUEST_URI]);
+$route = explode("/",$_SERVER['REQUEST_URI']);
 
-require('../settings/config.php');
+require(__DIR__.'/../settings/config.php');
+
 
 if($route[1] == $_ENV['PASTA_APP_NAME'])
 {
-	$route = explode("/",str_replace("/".$_ENV['PASTA_APP_NAME'], "", $_SERVER[REQUEST_URI]));  
+	$route = explode("/",str_replace("/".$_ENV['PASTA_APP_NAME'], "", $_SERVER['REQUEST_URI']));  
 }
 
 if($route[1] == NULL)
@@ -23,8 +24,13 @@ else
 {
 	//not found 
 	include('404.php');
+
 }
 
-include($controller);
+if(isset($controller))
+{
+	include($controller);
+}
+
 
 ?>

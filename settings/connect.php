@@ -12,7 +12,7 @@ $mysqli->query("SET NAMES 'utf8'");
 $mysqli->query('SET character_set_connection=utf8');
 $mysqli->query('SET character_set_client=utf8');
 $mysqli->query('SET character_set_results=utf8');
-$mysqli->query('SET PERSIST information_schema_stats_expiry = 0');
+//$mysqli->query('SET PERSIST information_schema_stats_expiry = 0');
 
 //TIMEZONE
 //date_default_timezone_set("America/Sao_Paulo");

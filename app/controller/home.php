@@ -10,7 +10,7 @@ if($route[2] == 'gateway')
 }
 else
 {
-	
+
 	switch ($route[2]) 
 	{
 	    case 'create':
