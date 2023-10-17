@@ -177,14 +177,12 @@
               $total_query = mysqli_num_rows($resultado_query);
 
               if($total_query > 0)
-              {
-                
-                    return "active";
-                
+              {                
+                  return "active";                
               }
               else
               {
-                return "";
+                  return "";
               }
           }
 
