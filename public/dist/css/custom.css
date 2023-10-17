@@ -1,0 +1,364 @@
+
+.card-bluefideliza:not(.card-outline) > .card-header {
+  background-color: #2e3141;
+}
+
+.card-bluefideliza:not(.card-outline) > .card-header,
+.card-bluefideliza:not(.card-outline) > .card-header a {
+  color: #fff;
+}
+
+.card-bluefideliza:not(.card-outline) > .card-header a.active {
+  color: #1f2d3d;
+}
+
+.card-bluefideliza.card-outline {
+  border-top: 3px solid #2e3141;
+}
+
+.card-bluefideliza.card-outline-tabs > .card-header a:hover {
+  border-top: 3px solid #dee2e6;
+}
+
+.card-bluefideliza.card-outline-tabs > .card-header a.active,
+.card-bluefideliza.card-outline-tabs > .card-header a.active:hover {
+  border-top: 3px solid #2e3141;
+}
+
+.bg-bluefideliza > .card-header .btn-tool,
+.bg-gradient-bluefideliza > .card-header .btn-tool,
+.card-bluefideliza:not(.card-outline) > .card-header .btn-tool {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-bluefideliza > .card-header .btn-tool:hover,
+.bg-gradient-bluefideliza > .card-header .btn-tool:hover,
+.card-bluefideliza:not(.card-outline) > .card-header .btn-tool:hover {
+  color: #fff;
+}
+
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget .table td,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget .table th,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget .table td,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget .table th {
+  border: none;
+}
+
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table thead tr:first-child th:hover,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.day:hover,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.hour:hover,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.minute:hover,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.second:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table thead tr:first-child th:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.day:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.hour:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.minute:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.second:hover {
+  background-color: #5d36a4;
+  color: #fff;
+}
+
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.today::before,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.today::before {
+  border-bottom-color: #fff;
+}
+
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.active,
+.card.bg-bluefideliza .bootstrap-datetimepicker-widget table td.active:hover,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.active,
+.card.bg-gradient-bluefideliza .bootstrap-datetimepicker-widget table td.active:hover {
+  background-color: #8c68ce;
+  color: #fff;
+}
+
+.sidebar-dark-bluefideliza .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-light-bluefideliza .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #2e3141;
+  color: #fff;
+}
+
+.sidebar-dark-bluefideliza .nav-sidebar.nav-legacy > .nav-item > .nav-link.active,
+.sidebar-light-bluefideliza .nav-sidebar.nav-legacy > .nav-item > .nav-link.active {
+  border-color: #2e3141;
+}
+
+.dark-mode .sidebar-dark-bluefideliza .nav-sidebar > .nav-item > .nav-link.active,
+.dark-mode .sidebar-light-bluefideliza .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #2e3141;
+  color: #fff;
+}
+
+.dark-mode .sidebar-dark-bluefideliza .nav-sidebar.nav-legacy > .nav-item > .nav-link.active,
+.dark-mode .sidebar-light-bluefideliza .nav-sidebar.nav-legacy > .nav-item > .nav-link.active {
+  border-color: #2e3141;
+}
+
+.navbar-bluefideliza {
+  background-color: #2e3141;
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar::-webkit-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar::-moz-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:-ms-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar::-ms-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar::placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar,
+.navbar-bluefideliza.navbar-light .form-control-navbar + .input-group-append > .btn-navbar {
+  background-color: #663bb4;
+  border-color: #5b35a0;
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus::-webkit-input-placeholder {
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus::-moz-placeholder {
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus:-ms-input-placeholder {
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus::-ms-input-placeholder {
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus::placeholder {
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus,
+.navbar-bluefideliza.navbar-light .form-control-navbar:focus + .input-group-append .btn-navbar {
+  background-color: #643ab0;
+  border-color: #5b35a0 !important;
+  color: #343a40;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar,
+.navbar-bluefideliza.navbar-dark .form-control-navbar + .input-group-append > .btn-navbar {
+  background-color: #7b51c6;
+  border-color: #8965cc;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-moz-placeholder {
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus::placeholder {
+  color: #fff;
+}
+
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus,
+.navbar-bluefideliza.navbar-dark .form-control-navbar:focus + .input-group-append .btn-navbar {
+  background-color: #7e55c7;
+  border-color: #8965cc !important;
+  color: #fff;
+}
+
+
+.dark-mode .navbar-bluefideliza {
+  background-color: #2e3141;
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar::-webkit-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar::-moz-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:-ms-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar::-ms-input-placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar::placeholder {
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar,
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar + .input-group-append > .btn-navbar {
+  background-color: #663bb4;
+  border-color: #5b35a0;
+  color: rgba(52, 58, 64, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus::-webkit-input-placeholder {
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus::-moz-placeholder {
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus:-ms-input-placeholder {
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus::-ms-input-placeholder {
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus::placeholder {
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus,
+.dark-mode .navbar-bluefideliza.navbar-light .form-control-navbar:focus + .input-group-append .btn-navbar {
+  background-color: #643ab0;
+  border-color: #5b35a0 !important;
+  color: #343a40;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar,
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar + .input-group-append > .btn-navbar {
+  background-color: #7b51c6;
+  border-color: #8965cc;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-moz-placeholder {
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus::placeholder {
+  color: #fff;
+}
+
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus,
+.dark-mode .navbar-bluefideliza.navbar-dark .form-control-navbar:focus + .input-group-append .btn-navbar {
+  background-color: #7e55c7;
+  border-color: #8965cc !important;
+  color: #fff;
+}
+
+.bg-bluefideliza {
+  background-color: #2e3141 !important;
+}
+
+.bg-bluefideliza,
+.bg-bluefideliza > a {
+  color: #fff !important;
+}
+
+.bg-bluefideliza.btn:hover {
+  border-color: #59339d;
+  color: #ececec;
+}
+
+.bg-bluefideliza.btn:not(:disabled):not(.disabled):active, .bg-bluefideliza.btn:not(:disabled):not(.disabled).active, .bg-bluefideliza.btn:active, .bg-bluefideliza.btn.active {
+  background-color: #59339d !important;
+  border-color: #533093;
+  color: #fff;
+}
+
+@media(min-width: 993px) {
+  .pushmenu{
+    display: none;
+  }
+}
+
+@media(max-width: 994px) {
+  .main-footer{
+    text-align: center;
+  }
+}
+
+.brand-image {
+  width: 110px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+}
+  
