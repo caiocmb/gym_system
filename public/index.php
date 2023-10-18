@@ -19,17 +19,13 @@ if($route[1] == NULL)
 if(file_exists($_ENV['DIR_APP']."/app/controller/".$route[1].".php"))
 {
 	$controller = $_ENV['DIR_APP']."/app/controller/".$route[1].".php";
+	include($controller);
 }
 else
 {
 	//not found 
 	include('404.php');
 
-}
-
-if(isset($controller))
-{
-	include($controller);
 }
 
 
